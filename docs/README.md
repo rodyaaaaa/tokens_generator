@@ -59,7 +59,13 @@ python main.py -t alphanumeric -l 24 -e "DATABASE_PASSWORD"
 # Output: DATABASE_PASSWORD=Hk9sF7d2...
 ```
 
-##### 4. Generate 5 Base64 tokens
+##### 4. Generate standard 50-character Django SECRET_KEY for `.env` file
+```bash
+python main.py -t base64 -l 50 -e "SECRET_KEY"
+# Output: SECRET_KEY=Q8oU1tojMX8D0BXRSKCHyx54Yb5lGe3zy2dFWzYZUMKg3MP-AJ
+```
+
+##### 5. Generate 5 Base64 tokens
 ```bash
 python main.py -t base64 -l 16 -c 5
 ```
@@ -157,7 +163,13 @@ python main.py -t alphanumeric -l 24 -e "DATABASE_PASSWORD"
 # Результат: DATABASE_PASSWORD=Hk9sF7d2...
 ```
 
-##### 4. Згенерувати 5 токенів Base64
+##### 4. Згенерувати стандартний 50-символьний Django SECRET_KEY для файлу `.env`
+```bash
+python main.py -t base64 -l 50 -e "SECRET_KEY"
+# Результат: SECRET_KEY=Q8oU1tojMX8D0BXRSKCHyx54Yb5lGe3zy2dFWzYZUMKg3MP-AJ
+```
+
+##### 5. Згенерувати 5 токенів Base64
 ```bash
 python main.py -t base64 -l 16 -c 5
 ```
