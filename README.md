@@ -21,6 +21,9 @@ This project provides an easy-to-use Command Line Interface (CLI) and importable
 > [!NOTE]
 > This application was written with the assistance of Artificial Intelligence (AI).
 
+### License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
 ---
 
 # Генератор секретних ключів для бекенду
@@ -45,4 +48,8 @@ This project provides an easy-to-use Command Line Interface (CLI) and importable
 
 > [!NOTE]
 > Цей застосунок було створено за допомогою штучного інтелекту (ШІ).
+
+### Ліцензія
+Цей проєкт ліцензовано за ліцензією MIT - детальніше див. у файлі [LICENSE](LICENSE).
+
 
